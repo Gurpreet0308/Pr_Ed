@@ -1,0 +1,23 @@
+DOCTYPE html
+html(lang="en")
+  head
+    link(rel="icon" href="font.png" type="image/icon type")
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="style.css")
+    
+    title CODE EDITOR
+   
+  body.main_body
+    header.header
+      ul
+        li.li_right code editor
+      div(style="clear: both;")
+    section.main
+      div.codes
+        textarea(class="textarea" id="html" placeholder="write your html code here")
+        textarea(class="textarea" id="css" placeholder="write your css code here")
+        textarea(class="textarea" id="js" placeholder="write your javascript code here")
+      iframe(class="output" id="iframe_id" name="iframe1")
+      div(style="clear: both;")
+    script(src="new.js")

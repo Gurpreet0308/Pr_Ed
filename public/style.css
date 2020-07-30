@@ -1,0 +1,72 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+  height: 100%;
+  width: 100%;
+}
+
+.main_body {
+  padding: 10px !important;
+  height: 100% !important;
+  background-color: white !important;
+}
+
+.header {
+  display: block;
+  color: white;
+  background-color: #272525;
+  text-transform: uppercase;
+}
+
+.header ul {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0 100px;
+  list-style: none;
+}
+
+.header ul li.li_left {
+  float: right;
+  margin: 20px 5px;
+}
+
+.header ul li.li_right {
+  float: left;
+  margin: 20px 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.main .codes {
+  float: left;
+  width: 35%;
+  height: 100%;
+}
+
+.main .codes .textarea {
+  min-height: 20px;
+  border: 3px solid #cccccc;
+  resize: vertical;
+  width: 100%;
+  height: 30%;
+}
+
+.main .output {
+  float: right;
+  width: 60%;
+  height: 100%;
+  border: 3px solid #cccccc;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+/*# sourceMappingURL=style.css.map */
