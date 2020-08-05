@@ -1,0 +1,71 @@
+li,a,button{
+    font-family:"Montserrat",sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    text-decoration: initial;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: black;
+}
+button{
+    padding: 5px 5px;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: chartreuse;
+}.nav_links{
+    list-style: square;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.nav_links li a{
+    transition: all 0.2s ease-in-out 0.2s;
+}
+.nav_links li a:hover{
+    color:rgb(0, 255, 13);;
+}
+body{
+    background-color:rgb(206, 205, 205);
+}
+b{
+    font-family:"Montserrat",sans-serif ;
+    font-weight: 500;
+    font-size: 26px;
+    color: rgb(255,255,255);
+    text-decoration: initial;
+}
+section.project{
+    padding-top: 20px;
+    background-color:black ;
+    padding-bottom: 30px;
+    color: white !important;
+    font-size: 30px;
+}
+section.developer{
+    background-color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+section.links{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+section.project.li{
+    font-size: 20px;
+}
+
+
+
